@@ -31,6 +31,12 @@ nav {
     height: auto;
   }
  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
   aside {
     width: 20rem;
     margin: 1rem;
