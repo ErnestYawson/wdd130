@@ -13,18 +13,21 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
       
-      <!-- CSS -->
+      <!-- CSS link-->
       <link rel="stylesheet" href="styles/rafting.css">
     </head>
     <body>
       <!-- Header Section -->
       <header>
+        <h1>Rafting Adventures</h1>
         <img src="images/rafinglogo.png" alt="Whitewater Rafting Logo" class="logo">
         <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="trips.html">Trips</a>
-          <a href="contact.html">Contact</a>
+          <ul>
+              <li> <a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="trips.html">Trips</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
         </nav>
       </header>
     
@@ -58,17 +61,32 @@
         <!-- Adventure Section -->
         <section>
           <h2>Adventure Awaits You!</h2>
-          <img src="images/rafting29_600.jpg" alt="Rafting Adventure 1">
-          <img src="images/rafting32_600.jpg" alt="Rafting Adventure 2">
-          <img src="images/rafting40_1024.jpg" alt="Rafting Adventure 3">
-          <img src="images/rafting53_600.jpg" alt="Rafting Adventure 4">
-          <img src="images/rafting64_600.jpg" alt="Rafting Adventure 5">
+          <div class="adventure-gallery">
+            <figure>
+               <img src="images/rafting29_600.jpg" alt="Rafting Adventure 1">
+               <figcaption>Los Dientes del Diablo</figcaption>
+            </figure>
+            <figure>
+               <img src="images/rafting32_600.jpg" alt="Rafting Adventure 2">
+               <figcaption>Big Mallard</figcaption>
+            </figure>
+            <figure>
+               <img src="images/rafting40_1024.jpg" alt="Rafting Adventure 3">
+               <figcaption>Enjoy a serene ride down Eagle's Glide</figcaption>
+            </figure>
+            <figure>   
+               <img src="images/rafting53_600.jpg" alt="Rafting Adventure 4">
+               <figcaption>Conquer the roaring waters of Wild Rapids</figcaption>
+            </figure>
+               <img src="images/rafting64_600.jpg" alt="Rafting Adventure 5">
+               <figcaption>Experience the thrill of Thunder Creek</figcaption>
+           </div>
         </section>
       </main>
     
       <!-- Footer Section -->
       <footer>
-        <p>&copy; 2024 Whitewater Rafting | Designed by [Your Name]</p>
+        <p>&copy; 2024 Whitewater Rafting | Designed by Ernest ARKOH YAWSON</p>
         <nav class="sociallinks">
           <a href="https://facebook.com">
             <img src="images/facebook_logo-facebook_button-64.webp" alt="Facebook">

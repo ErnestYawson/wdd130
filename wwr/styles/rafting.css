@@ -43,11 +43,13 @@ main {
   padding: 15px;
 }
 
-/* Header Styles */
+/* Header Layout */
 header {
-  background-color: var(--primary-color);
-  color: var(--background-color);
-  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background-color: #004c6d;
+  padding: 10px 20px;
 }
 
 header img.logo {
@@ -124,8 +126,8 @@ section {
 
 section img {
   display: inline-block;
-  width: calc(20% - 10px);
-  margin: 5px;
+  width: calc(20% - -115px);
+  margin: 4px;
   height: auto;
   border-radius: 5px;
 }
@@ -158,4 +160,43 @@ footer .sociallinks a {
 
 footer .sociallinks a:hover img {
   opacity: 0.8;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Adventures Section */
+.adventure-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.adventure-gallery figure img {
+  border-radius: 5px;
+}
+
+/* Footer Layout */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #004c6d;
+  color: white;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 10px;
 }
